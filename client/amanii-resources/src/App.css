@@ -51,11 +51,12 @@
 .navbar{
   padding-top: 0rem !important;
   padding-bottom:0rem !important;
+  padding-left: 0rem !important;
 }
 
 .container-fluid{
-  padding-left: 0rem;
-  padding-right: 0rem;
+  padding-left: 0rem !important;
+  padding-right: 0rem !important;
 }
 
 .homeImg{
