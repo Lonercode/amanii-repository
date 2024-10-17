@@ -257,6 +257,7 @@ body{
 
 .nav-link:hover{
   background-color: #4398e7;
+  color: white;
 }
 .addResource p {
   width: 90vw;
@@ -274,10 +275,6 @@ body{
 }
 .nav-link{
   margin-left: 0vw;
-}
-
-.nav-link:focus{
-  color: white;
 }
 
 
@@ -304,6 +301,7 @@ body{
   
   .nav-link:hover{
     background-color: #4398e7;
+    color: white;
   }
 
   .nav-link{
@@ -323,10 +321,6 @@ body{
 
   .navbar-brand{
     font-size: 4vw;
-  }
-  
-  .nav-link:focus{
-    color: white;
   }
 
 
