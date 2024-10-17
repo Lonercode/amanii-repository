@@ -27,7 +27,7 @@
   margin-right: 50vw !important;
   color: white;
   background-color: #4398e7;
-  padding:1vw;
+  padding:2vw;
   max-width: 30vw;
 }
 
@@ -55,7 +55,7 @@
 
 .container-fluid{
   padding-left: 0rem;
-  padding-right: 2rem;
+  padding-right: 0rem;
 }
 
 .homeImg{
