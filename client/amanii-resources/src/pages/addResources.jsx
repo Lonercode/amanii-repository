@@ -52,8 +52,8 @@ const AddResource = () => {
     return (
         <div className='addResource'>
             <h3> Add Helpful Materials on Mental Health </h3>
-            <p>Know any good resources that could help someone else on the topic of mental health? It could be the link to a therapy service, a support group, or even a self-help app.<br/>
-            Please note that entries must relate to mental health and have valid links. Entries that do not meet this requirement would be removed.
+            <p><b>Know any good resources that could help someone else on the topic of mental health? It could be the link to a therapy service, a support group, or even a self-help app.<br/>
+            Please note that entries must relate to mental health and have valid links. Entries that do not meet this requirement would be removed.</b>
             </p>
             <div className="resourceForm">
                 <h2>Resource Entry</h2>
@@ -72,6 +72,7 @@ const AddResource = () => {
                             <option value="Counseling">Counseling</option>
                             <option value="Support Groups">Support Groups</option>
                             <option value="Therapists">Therapists</option>
+                            <option value="Self-Help Apps">Reading Materials</option>
                             <option value="Self-Help Apps">Self-Help Apps</option>
                             <option value="Emergency Services">Emergency Services</option>
                         </select>
