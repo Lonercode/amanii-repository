@@ -1,9 +1,10 @@
 const express = require('express')
 const app = express()
 const userRoutes = require('./routes/resources.routes')
+const frontEnd = process.env.FRONT_END_LINK
 const cors = require('cors')
 const corsOrigin ={
-    origin:'http://localhost:5173' ,
+    origin:frontEnd ,
     credentials:true,            
     optionSuccessStatus:200,
     methods: ["POST", 'PUT', 'GET', 'OPTIONS', 'HEAD', 'DELETE'],
