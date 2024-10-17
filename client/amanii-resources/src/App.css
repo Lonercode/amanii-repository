@@ -277,6 +277,10 @@ body{
   margin-left: 0vw;
 }
 
+.searchInput {
+  width: 80%;
+}
+
 
 }
 
@@ -321,6 +325,10 @@ body{
 
   .navbar-brand{
     font-size: 4vw;
+  }
+
+  .searchInput {
+    width: 80%;
   }
 
 
