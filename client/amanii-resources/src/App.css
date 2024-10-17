@@ -166,7 +166,7 @@ header h1 {
 /* Add Resource */
 
 .addResource p {
-  width: 30vw;
+  width: 60vw;
   margin: 0 auto;
   padding-bottom: 3vh;
   font-weight: 600;
@@ -261,7 +261,7 @@ body{
 }
 .addResource p {
   width: 90vw;
-  font-weight: 100;
+  font-weight: 300;
 }
 
 .resourceForm {
@@ -314,7 +314,7 @@ body{
 
   .addResource p {
     width: 90vw;
-    font-weight: 100;
+    font-weight: 300;
   }
 
   .resourceForm {
