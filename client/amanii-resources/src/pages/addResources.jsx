@@ -9,7 +9,6 @@ const AddResource = () => {
         name: '',
         description: '',
         category: 'Counseling',  
-        contact: '',
         link: ''
     });
 
@@ -72,7 +71,7 @@ const AddResource = () => {
                             <option value="Counseling">Counseling</option>
                             <option value="Support Groups">Support Groups</option>
                             <option value="Therapists">Therapists</option>
-                            <option value="Self-Help Apps">Reading Materials</option>
+                            <option value="Reading Materials">Reading Materials</option>
                             <option value="Self-Help Apps">Self-Help Apps</option>
                             <option value="Emergency Services">Emergency Services</option>
                         </select>
