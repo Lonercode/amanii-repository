@@ -5,7 +5,7 @@ const ResourceSchema = new mongoose.Schema({
     description: { type: String, required: true },
     category: { type: String, 
             required: true,
-            enum: ['Hotlines', 'Counseling', 'Support Groups', 'Therapists', 'Self-Help Apps', 'Emergency Services'] 
+            enum: ['Counseling', 'Support Groups', 'Therapists', 'Reading Materials', 'Self-Help Apps', 'Emergency Services'] 
     },
     link: { type: String, unique: true }
 });
