@@ -264,7 +264,7 @@ body{
 }
 
 .resourceForm {
-  max-width: 80vw;
+  max-width: 95vw;
   margin: 0 auto;
   padding: 6vw;
   border: 2px solid #999696;
@@ -274,6 +274,10 @@ body{
 }
 .nav-link{
   margin-left: 0vw;
+}
+
+.nav-link:focus{
+  color: white;
 }
 
 
@@ -312,7 +316,7 @@ body{
   }
 
   .resourceForm {
-    max-width: 80vw;
+    max-width: 95vw;
     margin: 0 auto;
 
   }
@@ -321,6 +325,9 @@ body{
     font-size: 4vw;
   }
   
+  .nav-link:focus{
+    color: white;
+  }
 
 
 }
