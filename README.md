@@ -30,17 +30,21 @@ To use the app, you will need MongoDB, Node.js, and npm installed.
 
 #### Installation of Node.js and npm on Different Operating Systems
 
-**Windows**\
+**Windows**
+
 > Install using the link above and follow the instructions.
 
-**macOS**\
+**macOS**
+
 > Install Node.js and npm using Homebrew. Open the terminal and run:
 
 ```bash
 brew install node
+```
 
-*Linux*
->Use apt to install nodejs and npm. In the terminal run;
+**Linux**
+
+> Use apt to install nodejs and npm. In the terminal run:
 
 ```bash
     sudo apt update
@@ -53,8 +57,8 @@ brew install node
 
 > Clone the project
 ``` bash
-    git clone https://github.com/Lonercode/amanii-mindfulness-app.git
-    cd amanii-mindfulness-app
+    git clone https://github.com/Lonercode/amanii-resources.git
+    cd amanii-resources
 ```
 
 > Remember to set up a .env.development file using the env example.
@@ -64,7 +68,7 @@ brew install node
     docker-compose up --build
 ```
 
-### Steps to run project (Without docker)
+## Steps to run project (Without docker)
 
 
 1. *Clone the Repository*
@@ -115,12 +119,12 @@ I welcome contributions to the **amani-resources** project. You can do so easily
 
 2. **Clone Your Fork**:
    ```bash
-   git clone https://github.com/your-username/amanii-resources.git
+   git clone https://github.com/Lonercode/amanii-resources.git
    cd amanii-resources
    ```
 3. **Create your branch**
    ```bash
-  git checkout -b feature/YourFeatureName
+    git checkout -b feature/YourFeatureName
    ```
 4. **Work on and commit your branch**
    ```bash
