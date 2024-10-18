@@ -25,32 +25,25 @@
 
 .navbar-brand{
   margin-right: 50vw !important;
-  color: white;
-  background-color: #4398e7;
-  padding:2vw;
+  color: black;
+  padding:1vw;
   max-width: 30vw;
+  font-size: 2vw;
 }
 
 
-.navbar-brand:hover{
-  color: white;
+.navbar-brand:hover, .navbar-brand:active, .navbar-brand:focus{
+  color: black;
 }
 
-.navbar-brand:active{
-  color: white;
-}
-
-.navbar-brand:focus{
-  color: white;
-}
 .nav-link{
   margin-left: 3vw;
   color: #4398e7 !important;
 }
 
 .navbar{
-  padding-top: 0rem !important;
-  padding-bottom:0rem !important;
+  padding-top: 1rem !important;
+  padding-bottom:1rem !important;
   padding-left: 0rem !important;
 }
 
@@ -117,7 +110,6 @@ header h1 {
 .resource-item h2 {
   font-size: 1.75rem;
   margin-bottom: 10px;
-  color: #2e7d32;
 }
 
 .resource-item .description {
@@ -206,15 +198,6 @@ input, textarea, select {
   border-radius: 5px;
 }
 
-button {
-  padding: 10px 15px;
-  background-color: #7baadc;
-  color: white;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  margin-top: 1vw;
-}
 
 button:hover {
   background-color: #0056b3;

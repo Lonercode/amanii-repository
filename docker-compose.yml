@@ -1,0 +1,55 @@
+version: '3'
+
+services:
+  server:
+    build:
+      context: ./server
+      dockerfile: Dockerfile
+    container_name: amanii-resources-server
+    ports:
+      - "3000:3000"
+    volumes:
+      - ./server:/server
+    depends_on:
+      - db
+    networks:
+      - amanii-network
+    env_file:
+      - ./server/.env.development
+    environment:
+      - NODE_ENV=development
+
+  client:
+    build:
+      context: ./client/amanii-resources
+      dockerfile: Dockerfile
+    container_name: amanii-resources-frontend
+    ports:
+      - "5173:5173"
+    depends_on:
+      - server
+    networks:
+      - amanii-network
+    env_file:
+      - ./client/amanii-resources/.env.development
+    environment:
+      - NODE_ENV=development
+
+    
+
+  db:
+    image: mongo:latest
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo-data:/data/db
+    networks:
+      - amanii-network
+    
+volumes:
+  mongo-data:
+
+networks:
+  amanii-network:
+    driver: bridge
