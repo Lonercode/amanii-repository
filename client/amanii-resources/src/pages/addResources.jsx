@@ -52,7 +52,7 @@ const AddResource = () => {
         <div className='addResource'>
             <h3> Add Helpful Materials on Mental Health </h3>
             <p>Know any good resources that could help someone else on the topic of mental health? It could be the link to a therapy service, a support group, or even a self-help app.<br/>
-            Please note that entries must relate to mental health and have valid links. Entries that do not meet this requirement would be removed.
+            Please note that entries must relate to mental health and have valid links. Entries that do not meet these requirements would be removed.
             </p>
             <div className="resourceForm">
                 <h2>Resource Entry</h2>

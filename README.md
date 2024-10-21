@@ -1,5 +1,7 @@
 # amanii-resources
 
+**amanii-resources** is a community-driven hub dedicated to gathering and sharing mental health and mindfulness resources. Whether you're looking for guidance on well-being or want to share helpful tools, this platform provides an easy and accessible way to support the mental health journey for all.
+
 > ***The app targets Node.js 18.7.0***\
 > Link to the website can be found here: <https://amanii-resources.netlify.app/>
 
@@ -110,6 +112,7 @@ brew install node
 - **User Authentication**: Implement user sign-up and login.
 - **Feedback System**: Add a feedback/rating system so users can identify the most helpful resources.
 - **Mobile Responsiveness**: Improve UI for better usability on mobile devices.
+- **Bookmarks**: Allow users bookmark resources they find helpful for future reference.
 
 ## Contribution
 
