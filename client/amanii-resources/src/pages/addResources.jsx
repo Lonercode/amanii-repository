@@ -58,7 +58,7 @@ const AddResource = () => {
                 <h2>Resource Entry</h2>
                 <form onSubmit={handleSubmit}>
                     <div>
-                        <label><b>Name:</b></label>
+                        <label><b>Resource Name:</b></label>
                         <input type="text" name="name" value={formData.name} onChange={handleChange} required className='form-label'/>
                     </div>
                     <div>

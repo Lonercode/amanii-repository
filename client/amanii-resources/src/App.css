@@ -238,9 +238,9 @@ body{
   padding-top: 10vh;
 }
 
-.nav-link:hover{
+a.nav-link:hover{
   background-color: #4398e7;
-  color: white;
+  color: white !important;
 }
 .addResource p {
   width: 90vw;
@@ -286,9 +286,9 @@ body{
     padding-top: 10vh;
   }
   
-  .nav-link:hover{
+  a.nav-link:hover{
     background-color: #4398e7;
-    color: white;
+    color: white !important;
   }
 
   .nav-link{
